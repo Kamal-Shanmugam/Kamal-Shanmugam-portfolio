@@ -1,0 +1,47 @@
+.Qualification {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin: 15px 25px;
+
+}
+
+.quali-right {
+  
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h3{
+    color: rgb(255, 0, 85);
+    font-size: 20px;
+    font-weight: bold;
+    background: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 10px 25px;
+    display: flex;
+}
+ul li{
+    background: rgb(255, 0, 85);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    transition: 5s  ease-in-out;
+}
+ul li:hover{
+    border: 1px solid rgb(255, 0, 85);
+    cursor: pointer;
+}
+.quali-left{
+    align-items: center;
+}
+.edu{
+    margin: 15px 25px;
+}
+p{
+    margin: 5px 25px;
+}

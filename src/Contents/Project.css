@@ -1,0 +1,22 @@
+.Project-main{
+    margin: 10px 180px;
+}
+.project-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 15px;
+}
+ul li{
+    list-style-type: none;
+    margin: 0 15px ;
+    background: rgb(247, 167, 87) ;
+    text-align: justify;
+
+}
+h2 {
+    background: linear-gradient(90deg, #f75e84, #09ff84c5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

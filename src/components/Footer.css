@@ -1,0 +1,28 @@
+.footer {
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-top-right{
+    display: flex;
+   
+}
+.footer-social-icons a:hover{
+    color: white;  
+    border: 2px solid white;    
+}
+.footer-social-icons a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #ff105f, #ffad06);
+    border-radius: 25px;
+    margin:5px auto;
+    padding: 6px 25px;  
+}
