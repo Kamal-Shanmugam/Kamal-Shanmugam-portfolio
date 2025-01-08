@@ -14,17 +14,25 @@
 }
 .nav-links li{
     padding:0 10px;
+    background: linear-gradient(90deg, #f10453e1, #a406ffdc);
 }
 .nav-links li a{
     text-decoration:none;
     margin:0 10px;
     color:white;
+    transform: all 0.5s;
 }
 
+.nav-links li:hover{
+    transform:scale(1.05);
+ }
+
+
+
 .nav-connect{
- padding:15px 30px; 
+ padding:10px 30px; 
  border-radius:40px;  
- background: linear-gradient(90deg, #f10453e1, #a406ffdc);
+ background: linear-gradient(90deg, #f10453e1, #ff9b06dc);
  font-size:20px;
  cursor:pointer;
  color:white;

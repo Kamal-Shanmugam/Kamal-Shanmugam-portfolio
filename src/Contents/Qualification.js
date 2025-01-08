@@ -22,7 +22,7 @@ export default function Qualification() {
 
         <div className='quali-right'>
           <h2><center>SkillSets</center></h2>
-          
+
           <div className='skill'>
             <div className='skill'>
               <h3>Back-End</h3>
@@ -42,9 +42,28 @@ export default function Qualification() {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
+      <div className='software-skills'>
+        <div className='certification'>
+          <h2>Certification</h2>
+
+          <p>Java Full Stack --Oct,2024 </p>
+          <p>Greens Technologys, Chennai</p>
+          <a href='https://drive.google.com/file/d/1-XRuwsI23fydolydmGlIOZ2XjLbzQinY/view?usp=drivesdk'>Click toView</a>
+        </div>
+        <div className='software-tools'>
+          <h2>Software Tools</h2>
+          <ul className='tools'>
+            <li>Eclipse IDE</li>
+            <li>Visual Studio Code</li>
+            <li>Postman</li>
+            <li>Git</li>
+            <li>MySQL Workbench</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
     </div>
   )
 }

@@ -9,7 +9,7 @@ export default function Home() {
       <p>I'm a Full-Stack Web Developer, I love to build web applications and I'm passionate about learning new technologies</p>
       <div className='hero-actions'>
         <div className='hero-connect'>Connect with me</div>
-        <div className='hero-resume'>My Resume</div>
+        <div className='hero-resume'><a href=''>My Resume</a></div>
       
       </div>
     </div>

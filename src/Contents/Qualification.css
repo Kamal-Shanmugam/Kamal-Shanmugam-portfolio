@@ -12,7 +12,8 @@
     justify-content: space-evenly;
 }
 h3{
-    color: rgb(255, 0, 85);
+    color: rgb(255, 17, 0);
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
     background: whitesmoke;
@@ -25,11 +26,11 @@ ul{
     display: flex;
 }
 ul li{
-    background: rgb(255, 0, 85);
+    background: rgb(224, 92, 136);
     color: white;
     border-radius: 20px;
     padding: 5px 10px;
-    margin: 5px 0;
+    margin: 5px 8px;
     transition: 5s  ease-in-out;
 }
 ul li:hover{
@@ -50,4 +51,40 @@ h2 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.software-skills{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 35px;
+}
+.software-skills ul li{
+    background: linear-gradient(90deg, #5ebaf7, #09ff84c5);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 8px;
+    transition: 5s  ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+.certification a{
+    text-decoration: none;
+    color: white;
+    background: rgb(231, 161, 30);
+    padding: 1px 10px;
+    margin: 10px 10px;
+    border-radius: 25px;
+}
+.certification a:hover{
+    background: rgb(32, 219, 41);
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(231, 161, 30);
 }
