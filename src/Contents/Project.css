@@ -7,14 +7,14 @@
     justify-content: space-between;
     margin: 5px 15px;
 }
-ul li{
+.project-items ul li{
     list-style-type: none;
     margin: 0 15px ;
-    background: rgb(247, 167, 87) ;
+    background: rgb(183, 87, 247) ;
     text-align: justify;
 
 }
-h2 {
+.project-items h2 {
     background: linear-gradient(90deg, #f75e84, #09ff84c5);
     background-clip: text;
     -webkit-background-clip: text;

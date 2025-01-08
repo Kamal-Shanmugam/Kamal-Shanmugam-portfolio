@@ -5,9 +5,9 @@ export default function Qualification() {
     <div>
       <div className='Qualification'>
         <div className='quali-left'>
-          <h2>
+          <h1>
             Education
-          </h2>
+          </h1>
           <div className='edu'>
             <h3>Master of Computer Applications</h3>
             <p>Madha Engineering College,Chennai</p>

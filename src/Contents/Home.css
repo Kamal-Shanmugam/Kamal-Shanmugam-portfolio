@@ -8,6 +8,7 @@
 .Hero img {
     width: 200px;
     height: auto;
+    border-radius: 150px;
 }
 
 .Hero h1 {
